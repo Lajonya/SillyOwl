@@ -1,1 +1,6 @@
 # SillyOwl
+checks:
+3    hello world:
+4      - run: python3 hello.py
+5        stdout: Hello, world!
+6        exit: 0
